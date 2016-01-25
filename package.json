@@ -1,0 +1,21 @@
+{
+  "name": "npm-buildtool",
+  "version": "1.0.0",
+  "description": "Only for know how works the \"scripts\" key in a package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello-scripts": "echo \"only say hello :D\" && exit 0",
+    "hint": "jshint ./js/*.js --exclude=./**/_*",
+    "complexity": "cr --config .complexrc ./js/*.js"
+  },
+  "keywords": [
+    "only-dev"
+  ],
+  "author": "andru255",
+  "license": "ISC",
+  "devDependencies": {
+    "complexity-report": "^1.4.1",
+    "jshint": "^2.9.1"
+  }
+}

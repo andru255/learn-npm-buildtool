@@ -1,0 +1,8 @@
+{
+  "undef": true,
+  "browser": true,
+  "predef":[
+    "MY_GLOBAL",
+    "console"
+  ]
+}
