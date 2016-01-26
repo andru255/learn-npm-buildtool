@@ -4,7 +4,12 @@ This repo is for only learn how works the "scripts" key in a package.json
 
 ## Pre-requisites
 
-You only need node the lastest version and then download this repo
+You only need node the lastest version, then download this repo
+and run into the cloned folder:
+
+```
+~  npm install
+```
 
 ## Single "hello world"
 
