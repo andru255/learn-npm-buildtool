@@ -13,12 +13,18 @@ and run into the cloned folder:
 
 ## Single "hello world"
 
+```
 ~ npm run hello-scripts
+```
 
 ## Hint some scripts
 
+```
 ~ npm run hint
+```
 
 ## Report the complexity script's
 
+```
 ~ npm run complexity
+```
