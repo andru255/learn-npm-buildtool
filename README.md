@@ -17,7 +17,7 @@ and run into the cloned folder:
 
 ## Hint some scripts
 
-~ npm run hello-scripts
+~ npm run hint
 
 ## Report the complexity script's
 
