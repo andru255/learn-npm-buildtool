@@ -1,6 +1,10 @@
 {
   "name": "npm-buildtool",
   "version": "1.0.0",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/andru255/learn-npm-buildtool"
+  },
   "description": "Only for know how works the \"scripts\" key in a package.json",
   "main": "index.js",
   "scripts": {
