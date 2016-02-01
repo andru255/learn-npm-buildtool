@@ -1,7 +1,7 @@
 {
   "name": "npm-buildtool",
   "version": "1.0.0",
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/andru255/learn-npm-buildtool"
   },
@@ -20,6 +20,7 @@
   "license": "ISC",
   "devDependencies": {
     "complexity-report": "^1.4.1",
-    "jshint": "^2.9.1"
+    "jshint": "^2.9.1",
+    "watch": "^0.17.1"
   }
 }
