@@ -46,5 +46,15 @@ https://github.com/npm/npm/issues/6543
 
 https://github.com/npm/npm/issues/9420
 
+### Alternative with docker (WIP)
 
+
+```
+~ docker build -t buildtool .
+```
+
+
+```
+~ docker -rm -i -v $(pwd):/usr/src/app -t buildtool npm run [my taskname]
+```
 
