@@ -1,17 +1,19 @@
+# credits and amazing idea from:
+# http://www.saulshanabrook.com/npm-docker-sharing-volumes/
 FROM nodesource/node:latest
 
-RUN mkdir /src
+# to properly install node-gyp package
+ENV USER root
 
-WORKDIR /src
+RUN mkdir -p /vendor/
+ENV PATH /vendor/node_modules/.bin/:$PATH
+ENV NODE_PATH /vendor/node_modules/
 
-ADD package.json package.json
-
-RUN echo "start installing packages"
+COPY ./package.json /vendor/package.json
+WORKDIR /vendor/
 RUN npm install --only=dev
-RUN echo "end installing packages"
 
-VOLUME /src
-
-ONBUILD ADD . /src
+WORKDIR /src/
+COPY . /src/
 
 CMD ["npm"]
