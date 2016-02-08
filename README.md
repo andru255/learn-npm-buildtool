@@ -55,6 +55,12 @@ https://github.com/npm/npm/issues/9420
 
 
 ```
-~ docker -rm -i -v $PWD:/src/ -t buildtool npm run [my taskname]
+~ docker run -rm -i -v $PWD:/src/ -t buildtool npm run [my taskname]
 ```
 
+For windows user it works but here a little example how works in console:
+
+
+```
+~ docker run -rm -i -v /$(pwd):/src/ -t buildtool npm run [my taskname]
+```
